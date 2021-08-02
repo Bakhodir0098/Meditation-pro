@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+.med {
+  width: 100%;
+  height: 1000px;
+  background: url('../../public/img/Background\ \(2\).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.med_box {
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.paragraph {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 200;
+  color: #cefff7;
+}
+
+.card_inside {
+  width: 460px;
+  height: 155px;
+  background: url('../../public/img/left-med.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.card_inside2 {
+  width: 460px;
+  height: 155px;
+  background: url('../../public/img/right.med.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.left_h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00432f;
+  padding: 10px 0;
+}
+.left_p {
+  color: #369683;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.girl_img {
+  width: 250px;
+  height: 590px;
+  background: url('../../public/img/img3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .med {
+    margin-top: 500px;
+    height: 2800px;
+  }
+
+  .title {
+    padding-top: 170px;
+  }
+
+  .card_inside {
+    width: 660px;
+    height: 220px;
+  }
+
+  .card_inside2 {
+    width: 660px;
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .med {
+    height: 2400px;
+  }
+
+  .card_inside {
+    width: 460px;
+    height: 155px;
+  }
+
+  .card_inside2 {
+    width: 460px;
+    height: 155px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .med {
+    width: 100%;
+    height: 1650px;
+    margin-top: -200px;
+  }
+
+  .card_inside {
+    width: 330px;
+    height: 110px;
+    margin: 10px 0;
+  }
+
+  .card_inside2 {
+    width: 330px;
+    height: 110px;
+    margin: 10px 0;
+  }
+
+  .girl_img {
+    width: 170px;
+    height: 400px;
+  }
+
+  .title {
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+  }
+  .paragraph {
+    font-size: 14px;
+    font-weight: 200;
+    width: 90%;
+  }
+}

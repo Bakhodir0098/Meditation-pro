@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+.practice {
+  background: url('../../public/img/practice-bg.png');
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  transition: ease all 0.3s;
+}
+
+.practice_box {
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+}
+
+.practice_title {
+  font-size: 40px;
+  font-family: 'Merienda One', cursive;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  color: #00432f;
+  font-weight: 200;
+}
+.paragraph {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 200;
+  color: #6bbfb2;
+}
+
+.practice_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  transition: ease all 0.3s;
+}
+
+.card_img {
+  width: 700px;
+  height: 500px;
+  background: url('../../public/img/img5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease all 0.3s;
+}
+
+.text_box {
+  width: 600px;
+  height: 200px;
+  background: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 70px;
+  margin: 0px;
+  cursor: pointer;
+  transition: all ease 3s;
+}
+.text_box:hover {
+  background: url('../../public/img/abs.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease all 0.3s;
+}
+
+.card_title {
+  font-size: 25px;
+  font-weight: 400;
+  color: #00432f;
+}
+
+.card_p {
+  font-weight: 200;
+  width: 90%;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #6bbfb2;
+}
+@media only screen and (max-width: 1080px) {
+  .practice_body {
+    flex-direction: column;
+  }
+  .practice_title {
+    width: 70%;
+  }
+
+  .paragraph {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .card_img {
+    width: 350px;
+    height: 250px;
+  }
+  .practice_title {
+    font-size: 30px;
+    width: 90%;
+  }
+  .paragraph {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .text_box {
+    width: 450px;
+    height: 200px;
+    padding: 50px 50px;
+  }
+  .card_title {
+    font-size: 20px;
+  }
+
+  .card_p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .text_box {
+    width: 350px;
+    height: 160px;
+    padding: 20px 30px;
+  }
+
+  .card_title {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .card_p {
+    font-size: 12px;
+  }
+  .practice_title {
+    width: 100%;
+  }
+  .paragraph {
+    width: 100%;
+  }
+}

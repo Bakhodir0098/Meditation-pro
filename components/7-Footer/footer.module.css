@@ -1,0 +1,82 @@
+.footer {
+  width: 100%;
+  height: 400px;
+  background: url('../../public/img/footer-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer_inside {
+  width: 90%;
+  max-width: 1250px;
+  margin: auto;
+  position: relative;
+}
+
+.footer_logo {
+  width: 130px;
+  height: 120px;
+  background: url('../../public/img/logo.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 300px;
+}
+
+.ul_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.list_item {
+  font-size: 18px;
+  color: #4e8e83;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.list_item:hover {
+  color: #2c6057;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_icons .icon {
+  font-size: 40px;
+  margin: 0 20px;
+  color: #4e8e83;
+  cursor: pointer;
+}
+
+.social_icons .icon:hover {
+  color: #2c6057;
+}
+
+@media only screen and (max-width: 770px) {
+  .footer {
+    padding-top: 200px;
+    height: 1000px;
+  }
+  .ul_list {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .social_icons .icon {
+    font-size: 25px;
+    margin: 0 10px;
+  }
+
+  .footer {
+    height: 900px;
+  }
+}

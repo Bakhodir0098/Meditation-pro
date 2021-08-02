@@ -1,0 +1,187 @@
+.card {
+  height: 700px;
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box_bg {
+  position: relative;
+  background: linear-gradient(180deg, rgb(196, 196, 196), transparent);
+  width: 299px;
+  height: 460px;
+  border-radius: 10px;
+  margin: 50px 40px;
+}
+.box1 {
+  background: url('../../public/card-1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 490px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.box2 {
+  background: url('../../public/card-3.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.box3 {
+  background: url('../../public/card-2.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 490px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.box_img1 {
+  width: 70px;
+  height: 70px;
+  background: url('../../public/img/meditation.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box_img2 {
+  width: 70px;
+  height: 70px;
+  background: url('../../public/img/yoga.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box_img3 {
+  width: 70px;
+  height: 70px;
+  background: url('../../public/img/sound.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+  margin: 50px 0 20px 0;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 50px;
+  line-height: 1.5rem;
+  color: #999;
+}
+
+.btn {
+  text-align: center;
+  margin: auto;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  background: #189585;
+  box-shadow: 1px 1px 14px 3px #0f6f6266;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  background: #117e70;
+}
+
+@media only screen and (max-width: 1080px) {
+  .card {
+    height: 1700px;
+  }
+  .box_items {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .box_bg {
+    width: 349px;
+    height: 460px;
+  }
+  .box1 {
+    width: 350px;
+    height: 460px;
+  }
+
+  .box2 {
+    width: 350px;
+    height: 460px;
+  }
+  .box3 {
+    width: 350px;
+    height: 460px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .box_bg {
+    width: 300px;
+    height: 410px;
+  }
+  .box1 {
+    width: 301px;
+    height: 411px;
+  }
+
+  .box2 {
+    width: 301px;
+    height: 411px;
+  }
+  .box3 {
+    width: 301px;
+    height: 411px;
+  }
+
+  .title {
+    font-size: 25px;
+    margin: 10px;
+  }
+  .paragraph {
+    font-size: 15px;
+    margin: 10px 10px 15px 10px;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+}
